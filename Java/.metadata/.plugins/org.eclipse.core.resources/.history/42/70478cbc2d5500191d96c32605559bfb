@@ -1,0 +1,22 @@
+package renderers;
+
+import javax.swing.*;
+
+public class Window {
+	
+	JFrame frame;
+	
+	public Window(int width, int height) {
+		frame = new JFrame();
+		frame.setSize(width, height);
+		frame.setLayout(null);
+	}
+	
+	public void show() {
+		frame.setVisible(true);
+	}
+	
+	public void finalize() {
+	}
+
+}

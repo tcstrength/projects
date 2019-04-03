@@ -1,0 +1,15 @@
+package main;
+
+import renderers.Window;
+
+public class Main {
+	
+	Window mainWindow;
+
+	public static void main(String[] args) {
+		mainWindow = new Window(800, 600);
+		mainWindow.show();
+
+	}
+
+}

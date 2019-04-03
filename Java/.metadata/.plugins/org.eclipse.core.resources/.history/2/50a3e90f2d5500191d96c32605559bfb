@@ -1,0 +1,21 @@
+package renderers;
+
+import javax.swing.*;
+
+public class Window {
+	
+	JFrame frame;
+	
+	public Window() {
+		
+	}
+	
+	public void start() {
+		
+	}
+	
+	public void finalize() {
+		
+	}
+
+}

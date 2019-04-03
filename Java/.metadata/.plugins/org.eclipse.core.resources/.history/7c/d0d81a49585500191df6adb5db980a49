@@ -1,0 +1,11 @@
+package renderers;
+
+import javax.swing.*;
+
+public class Menu {
+	
+	public Menu(JFrame frame) {
+		
+	}
+
+}

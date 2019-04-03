@@ -1,0 +1,49 @@
+package renderers;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+
+public class Menu implements ActionListener {
+	static final int WIDTH = 200;
+	static final int HEIGHT = 40;
+	
+	JButton startBtn;
+	JButton settingsBtn;
+	JButton exitBtn;
+	
+	public Menu(JFrame frame) {
+		startBtn = new JButton("START");
+		settingsBtn = new JButton("SETTINGS");
+		exitBtn = new JButton("EXIT!");
+		
+		startBtn.setBounds(
+				frame.getWidth() / 2 - WIDTH / 2, 
+				frame.getHeight() / 2 - 100,
+				WIDTH,
+				HEIGHT);
+		
+		settingsBtn.setBounds(
+				frame.getWidth() / 2 - WIDTH / 2, 
+				frame.getHeight() / 2,
+				WIDTH,
+				HEIGHT);
+		
+		exitBtn.setBounds(
+				frame.getWidth() / 2 - WIDTH / 2, 
+				frame.getHeight() / 2 + 100,
+				WIDTH,
+				HEIGHT);
+		
+		exitBtn.addActionListener(performExit);
+		
+		frame.add(startBtn);
+		frame.add(settingsBtn);
+		frame.add(exitBtn);
+	}
+	
+	public void performExit(ActionEvent e) {
+		
+	}
+
+}

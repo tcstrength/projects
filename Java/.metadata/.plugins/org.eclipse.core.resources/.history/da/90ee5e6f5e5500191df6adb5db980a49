@@ -1,0 +1,30 @@
+package renderers;
+
+import javax.swing.*;
+import renderers.Menu;
+
+public class Window {
+	
+	JFrame frame;
+	Menu menu;
+	
+	public Window(int width, int height) {
+		frame = new JFrame("Lắc con chị mầy, học hành không lo, lo lắc");
+		frame.setSize(width, height);
+		frame.setLayout(null);
+		
+		menu = new Menu(frame);
+	}
+	
+	public void createMenu() {
+		menu = new Menu(frame);
+	}
+	
+	public void show() {
+		frame.setVisible(true);
+	}
+	
+	public void finalize() {
+	}
+
+}

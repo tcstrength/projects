@@ -1,0 +1,9 @@
+package renderer;
+
+import javax.swing.*;
+
+public class Window {
+	public void Window(int width, int height) {
+		
+	}
+}

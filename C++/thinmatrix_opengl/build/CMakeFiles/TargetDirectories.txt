@@ -1,0 +1,3 @@
+/home/nyan/Projects/thinmatrix_opengl/build/CMakeFiles/rebuild_cache.dir
+/home/nyan/Projects/thinmatrix_opengl/build/CMakeFiles/thinmatrix_opengl.dir
+/home/nyan/Projects/thinmatrix_opengl/build/CMakeFiles/edit_cache.dir

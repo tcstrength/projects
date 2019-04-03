@@ -1,0 +1,7 @@
+package renderer;
+
+import javax.swing.*;
+
+public class Window {
+
+}

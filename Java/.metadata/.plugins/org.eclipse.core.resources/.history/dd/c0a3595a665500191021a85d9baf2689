@@ -1,0 +1,25 @@
+package main;
+
+import renderers.Window;
+import renderers.Menu;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Window window = new Window(800, 600);
+		Menu menu = new Menu(window.getFrame(), 
+		new ActionListener() {
+			public void actionPerformed() {
+				
+			}
+		},
+		new ActionListener() {
+			public void actionPerformed() {
+				
+			}
+		});
+		window.show();
+
+	}
+
+}

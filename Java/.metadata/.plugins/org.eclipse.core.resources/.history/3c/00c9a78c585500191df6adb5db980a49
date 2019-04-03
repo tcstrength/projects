@@ -1,0 +1,20 @@
+package renderers;
+
+import javax.swing.*;
+
+public class Menu {
+	JButton startBtn;
+	JButton settingsBtn;
+	JButton exitBtn;
+	
+	public Menu(JFrame frame) {
+		startBtn = new JButton("START");
+		settingsBtn = new JButton("SETTINGS");
+		exitBtn = new JButton("EXIT!");
+		
+		frame.add(startBtn);
+		frame.add(settingsBtn);
+		frame.add(exitBtn);
+	}
+
+}

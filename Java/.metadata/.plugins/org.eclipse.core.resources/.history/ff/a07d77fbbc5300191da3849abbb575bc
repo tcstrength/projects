@@ -1,0 +1,14 @@
+package renderer;
+
+import javax.swing.*;
+
+public class Window {
+	JFrame mainFrame;
+	
+	public void Window(int width, int height) {
+		mainFrame = new JFrame();
+		mainFrame.setSize(800, 600);
+		mainFrame.setVisible(true);
+		mainFrame.setLayout(null)
+	}
+}

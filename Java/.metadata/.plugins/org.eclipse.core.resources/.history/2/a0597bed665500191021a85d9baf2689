@@ -1,0 +1,23 @@
+package main;
+
+import renderers.Window;
+import renderers.Menu;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Main {
+	
+	static Window window = new Window(800, 600);
+	
+	public static void closeMenu() {
+	}
+
+	public static void main(String[] args) {
+		
+		menu.show();
+		window.show();
+
+	}
+
+}

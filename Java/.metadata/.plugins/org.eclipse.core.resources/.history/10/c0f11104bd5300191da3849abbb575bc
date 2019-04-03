@@ -1,0 +1,22 @@
+
+import javax.swing.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame();
+		JButton button = new JButton("Click me!");
+		JLabel label = new JLabel("Fuck you");
+		
+		button.setBounds(130, 100, 100, 40);
+		label.setBounds(130, 200, 100, 40);
+		
+		frame.add(label);
+		frame.add(button);
+		
+		frame.setSize(800, 600);
+		frame.setLayout(null);
+		frame.setVisible(true);
+	}
+
+}

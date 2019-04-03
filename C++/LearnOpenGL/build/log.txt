@@ -1,0 +1,25 @@
+[ 13:44:59 DEBUG ] - material index: 3
+[ 13:44:59 DEBUG ] - material index: 6
+[ 13:44:59 DEBUG ] - material index: 4
+[ 13:44:59 DEBUG ] - material index: 3
+[ 13:44:59 DEBUG ] - material index: 1
+[ 13:44:59 DEBUG ] - material index: 5
+[ 13:44:59 DEBUG ] - material index: 2
+[ 13:44:59 DEBUG ] - Load models/nanosuit/arm_dif.png
+[ 13:44:59 DEBUG ] - Load models/nanosuit/body_dif.png
+[ 13:44:59 DEBUG ] - Load models/nanosuit/glass_dif.png
+[ 13:44:59 DEBUG ] - Load models/nanosuit/hand_dif.png
+[ 13:44:59 DEBUG ] - Load models/nanosuit/helmet_diff.png
+[ 13:44:59 DEBUG ] - Load models/nanosuit/leg_dif.png
+[ 13:44:59 DEBUG ] - material index: 1
+[ 13:44:59 DEBUG ] - Load models/tumlum/jeep_army.jpg
+[ 13:44:59 DEBUG ] - Load models/tumlum/jeep_rood.jpg
+[ 13:45:00 DEBUG ] - material index: 0
+[ 13:45:05 DEBUG ] - Texture 0x5562955137b0 has been deleted
+[ 13:45:05 DEBUG ] - Texture 0x556295535180 has been deleted
+[ 13:45:05 DEBUG ] - Texture 0x5562957c50d0 has been deleted
+[ 13:45:05 DEBUG ] - Texture 0x55629550ae90 has been deleted
+[ 13:45:05 DEBUG ] - Texture 0x556295510150 has been deleted
+[ 13:45:05 DEBUG ] - Texture 0x5562955101e0 has been deleted
+[ 13:45:05 DEBUG ] - Texture 0x556295510270 has been deleted
+[ 13:45:05 DEBUG ] - Texture 0x556295510300 has been deleted

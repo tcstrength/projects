@@ -1,0 +1,9 @@
+package renderers;
+
+import renderers.Window;
+
+public class Menu {
+	
+	public Menu(Window)
+
+}

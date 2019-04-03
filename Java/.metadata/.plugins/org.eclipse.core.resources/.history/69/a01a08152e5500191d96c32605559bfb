@@ -1,0 +1,26 @@
+package renderers;
+
+import javax.swing.*;
+
+public class Window {
+	
+	JFrame frame;
+	JLabel title;
+	
+	public Window(int width, int height) {
+		frame = new JFrame();
+		frame.setSize(width, height);
+		frame.setLayout(null);
+		
+		title = new JLabel();
+		title.setText("Lắc là lắc là lắc là lắc, bầu cua là bầu cua");
+	}
+	
+	public void show() {
+		frame.setVisible(true);
+	}
+	
+	public void finalize() {
+	}
+
+}
